@@ -5,3 +5,51 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 1380px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+/* HEADER */
+
+header {
+  height: 70px;
+  background-color: #FF6900;
+  display: flex;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container .gender {
+  width: 178px;
+  height: 20px;
+}
+
+header .container .gender ul {
+  list-style: none;
+  display: flex;
+}
+
+header .container .gender a {
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+}
+
+header .container img {
+  width: 135px;
+}
+
+header .container .icon {
+  width: 66px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
