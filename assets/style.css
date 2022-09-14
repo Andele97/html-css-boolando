@@ -7,7 +7,7 @@
 }
 
 .container {
-  width: 1450px;
+  width: 1200px;
   margin: 0 auto;
   border: 1px solid black;
 }
@@ -52,11 +52,48 @@ header .container .icon {
 
 main .container .clothes {
   width: calc(100% / 3);
-  display: inline-block;
+  float: left;
+  text-align: center;
   border: 1px solid black;
-  
+  position: relative;
 }
 
 main .container .clothes img {
-  height: 540px;
+  height: 500px;
+}
+
+main .container .clothes .sec {
+  display: none;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding-left: 25px;
+}
+
+main .container .clothes:hover .sec {
+  display: block;
+}
+
+main .container .clothes .discount {
+  background-color: red;
+  position: absolute;
+  padding: 5px;
+  bottom: 5px;
+  left: 10px;
+  display: inline-block;
+  color: white;
+}
+
+main .container .clothes .green {
+  background-color: green;
+  padding: 5px;
+  position: absolute;
+  bottom: 5px;
+  left: 70px;
+  color: white;
+}
+
+main .container .clothes .solo.green {
+  position: absolute;
+  left: 10px
 }
